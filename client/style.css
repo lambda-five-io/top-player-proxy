@@ -1,0 +1,38 @@
+body {
+  margin: 0;
+}
+
+#center {
+  max-width: 1210px;
+  margin: 0 auto;
+  position: relative;
+  display: block; 
+  background-color: #fff;
+  padding-right: 30px;
+}
+
+#Comments {
+  left: 0;
+  padding-top: 20px;
+
+}
+
+#SideBar {
+  display: inline-flex;
+  top: 30px;
+  right: 0;
+  position: absolute;
+  bottom: auto;
+  width: 300px;
+  padding: 50px;
+  border-left: 1px solid #b8b8b8;
+
+}
+
+#BottomPlayer {
+  z-index: 1000;
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+}
